@@ -2,12 +2,12 @@
 
 # Initialize Local Repository #
 ```bash
-repo init -u https://github.com/CorvusAOSP-Revived/android_manifest.git -b 11
+repo init -u https://github.com/CorvusAOSP-Revived/manifest.git -b 11
 ```
 
 # Or Initialize Shallow Clone #
 ```bash
-repo init --depth=1 -u https://github.com/CorvusAOSP-Revived/android_manifest.git -b 11
+repo init --depth=1 -u https://github.com/CorvusAOSP-Revived/manifest.git -b 11
 ```
 
 # Syncing Repository # 
