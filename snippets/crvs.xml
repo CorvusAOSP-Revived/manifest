@@ -52,7 +52,7 @@
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="corvus" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="corvus" />
   <project path="external/libpng" name="android_external_libpng" remote="corvus" />
-  <project path="external/zlib" name="android_external_zlib" remote="corvus" />
+  <project path="external/zlib" name="android_external_zlib" remote="revived" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="corvus" />
   <project path="external/faceunlock" name="external_faceunlock" remote="revived" clone-depth="1" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="corvus" />
@@ -69,9 +69,9 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="corvus" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="corvus" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="corvus" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="revived" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="revived" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="revived" />
   <project path="frameworks/native" name="android_frameworks_native" remote="revived" />
   <project path="frameworks/base" name="android_frameworks_base" remote="revived" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="corvus" />
@@ -87,7 +87,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="corvus" />
   <project path="hardware/ril" name="android_hardware_ril" remote="corvus" />
   <project path="hardware/corvus/interfaces" name="android_hardware_corvus_interfaces" remote="corvus" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="corvus" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="revived" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="corvus" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="corvus" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="corvus" />
@@ -123,10 +123,10 @@
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="corvus" revision="11-8150" />
 
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="corvus" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="corvus" />
+  <project path="system/core" name="android_system_core" remote="revived" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="revived" />
   <project path="system/vold" name="android_system_vold" remote="corvus" />
-  <project path="system/bt" name="android_system_bt" remote="corvus" />
+  <project path="system/bt" name="android_system_bt" remote="revived" />
   <project path="system/netd" name="android_system_netd" remote="corvus" />
   <project path="system/security" name="android_system_security" remote="corvus" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="corvus" />
@@ -144,27 +144,27 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
   <!-- Packages -->
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="corvus" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="revived" />
   <project path="packages/apps/Chromium" name="android_packages_apps_Chromium" remote="corvus" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="corvus" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="corvus" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="revived" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="revived" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="corvus" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="revived" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="corvus" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="corvus" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="corvus" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="revived" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="revived" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="corvus" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="corvus" />
   <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="eleven" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="corvus" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="corvus" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="corvus" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="revived" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="corvus" />
   <project path="packages/apps/RavenLair" name="android_packages_apps_RavenLair" remote="revived" />
   <project path="packages/apps/Corvus-Themes" name="android_packages_apps_Corvus-Themes" remote="corvus" />
   <project path="packages/apps/CorvusWalls" name="android_packages_apps_CorvusWalls" remote="corvus" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="revived" />
-  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="corvus" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="revived" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="corvus" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="corvus" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="corvus" />
@@ -176,6 +176,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="corvus" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="corvus" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="corvus" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="revived" />
   <project path="vendor/corvus" name="vendor_corvus" remote="revived" />
   <project path="vendor/themes" name="android_vendor_themes" remote="revived" />
   <project path="vendor/gms" name="victor10520/vendor_gms" remote="gitlab" revision="11" clone-depth="1" />
